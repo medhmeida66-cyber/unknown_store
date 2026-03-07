@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahid VIP - Unknown Store</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif;}
+    body{background:#0b1220;color:#fff;line-height:1.6;}
+    a{text-decoration:none;color:inherit;}
+    header{background:linear-gradient(135deg,#10203a,#1a2f56,#284a7a);padding:16px 20px;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:1000;}
+    .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;}
+    .brand{display:flex;align-items:center;gap:12px;}
+    .brand img{width:54px;height:54px;object-fit:cover;border-radius:14px;}
+    .logo{font-size:24px;font-weight:bold;color:#fff;}
+    nav{display:flex;gap:14px;flex-wrap:wrap;}
+    nav a{color:#d9e6ff;font-size:15px;}
+    .container{width:94%;max-width:1200px;margin:35px auto;}
+    .hero-box{text-align:center;margin-bottom:30px;padding:28px 20px;background:linear-gradient(180deg,#12203a,#0f1a2e);border:1px solid rgba(255,255,255,.08);border-radius:22px;}
+    .hero-box img{width:92px;height:92px;object-fit:contain;margin-bottom:14px;}
+    .hero-box h1{margin-bottom:8px;font-size:34px;}
+    .hero-box p{color:#bfd2ee;}
+    .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;}
+    .product-card{background:linear-gradient(180deg,#12203a,#0e182b);border:1px solid rgba(255,255,255,.07);border-radius:22px;overflow:hidden;}
+    .product-image{height:210px;background:linear-gradient(135deg,#11213d,#1b2f54);display:flex;align-items:center;justify-content:center;padding:20px;}
+    .product-image img{width:100px;height:100px;object-fit:contain;}
+    .product-content{padding:16px;text-align:center;}
+    .product-content h3{margin-bottom:8px;font-size:22px;}
+    .price{color:#7dd3fc;font-size:20px;margin-bottom:14px;font-weight:bold;}
+    .btn{display:block;width:100%;text-align:center;padding:12px;border-radius:12px;font-size:15px;font-weight:bold;background:#7dd3fc;color:#0b1220;}
+    footer{margin-top:50px;background:#0c1422;border-top:1px solid rgba(255,255,255,.06);padding:20px;text-align:center;color:#9db2d1;font-size:14px;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div class="brand">
+        <img src="IMG_0143.jpeg" alt="logo">
+        <div class="logo">Unknown Store</div>
+      </div>
+      <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="shahid.html">Shahid VIP</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="hero-box">
+      <img src="shahid.png" alt="Shahid VIP">
+      <h1>Shahid VIP Prices</h1>
+      <p>اختر الباقة المناسبة واطلب مباشرة</p>
+    </div>
+
+    <div class="products">
+      <div class="product-card">
+        <div class="product-image"><img src="shahid.png" alt="Shahid 1 Month"></div>
+        <div class="product-content">
+          <h3>Shahid VIP 1 Month</h3>
+          <div class="price">350 MRU</div>
+          <a class="btn" href="https://wa.me/447893920060?text=مرحباً، أريد Shahid VIP لمدة شهر" target="_blank">اطلب الآن</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image"><img src="shahid.png" alt="Shahid 3 Months"></div>
+        <div class="product-content">
+          <h3>Shahid VIP 3 Months</h3>
+          <div class="price">900 MRU</div>
+          <a class="btn" href="https://wa.me/447893920060?text=مرحباً، أريد Shahid VIP لمدة 3 أشهر" target="_blank">اطلب الآن</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image"><img src="shahid.png" alt="Shahid 6 Months"></div>
+        <div class="product-content">
+          <h3>Shahid VIP 6 Months</h3>
+          <div class="price">1700 MRU</div>
+          <a class="btn" href="https://wa.me/447893920060?text=مرحباً، أريد Shahid VIP لمدة 6 أشهر" target="_blank">اطلب الآن</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>جميع الحقوق محفوظة © 2026 - Unknown Store</footer>
+</body>
+</html>

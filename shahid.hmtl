@@ -54,28 +54,28 @@
 
     <div class="products">
       <div class="product-card">
-        <div class="product-image"><img src="shahid.png" alt="Shahid 1 Month"></div>
+        <div class="product-image"><img src="IMG_5656.png" alt="Shahid 1 Month"></div>
         <div class="product-content">
           <h3>Shahid VIP 1 Month</h3>
-          <div class="price">350 MRU</div>
+          <div class="price">250 MRU</div>
           <a class="btn" href="https://wa.me/447893920060?text=مرحباً، أريد Shahid VIP لمدة شهر" target="_blank">اطلب الآن</a>
         </div>
       </div>
 
       <div class="product-card">
-        <div class="product-image"><img src="shahid.png" alt="Shahid 3 Months"></div>
+        <div class="product-image"><img src="IMG_5656.png" alt="Shahid 3 Months"></div>
         <div class="product-content">
           <h3>Shahid VIP 3 Months</h3>
-          <div class="price">900 MRU</div>
+          <div class="price">700 MRU</div>
           <a class="btn" href="https://wa.me/447893920060?text=مرحباً، أريد Shahid VIP لمدة 3 أشهر" target="_blank">اطلب الآن</a>
         </div>
       </div>
 
       <div class="product-card">
-        <div class="product-image"><img src="shahid.png" alt="Shahid 6 Months"></div>
+        <div class="product-image"><img src="IMG_5656.png" alt="Shahid 6 Months"></div>
         <div class="product-content">
           <h3>Shahid VIP 6 Months</h3>
-          <div class="price">1700 MRU</div>
+          <div class="price">1350 MRU</div>
           <a class="btn" href="https://wa.me/447893920060?text=مرحباً، أريد Shahid VIP لمدة 6 أشهر" target="_blank">اطلب الآن</a>
         </div>
       </div>
